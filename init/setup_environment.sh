@@ -10,4 +10,4 @@ sudo apt install git
 
 sudo apt install python3-pip
 pip install -upgrade pip
-pip install -r /root/minecraft/minecraft-utils/mc_py_tools/requirements.txt
+pip install -r /root/minecraft-utils/mc_py_tools/requirements.txt
