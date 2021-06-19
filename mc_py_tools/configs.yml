@@ -1,0 +1,9 @@
+dirs:
+  root: "/root/minecraft"
+  server: "/root/minecraft/server"
+configs:
+  dir: ""
+  content: [ "ops.json", "server.properties" ]
+mounts:
+  local: "{TEST}"
+  shared: "{TEST}"

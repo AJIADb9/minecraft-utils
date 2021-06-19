@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "0647f981-31ff-380e-9ce1-8013395aa1b7",
+    "name": "AJIADb9",
+    "level": 4,
+    "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "8e41ecf7-0061-409d-84a0-e4c7c002c65b",
+    "name": "AJIADb9",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
