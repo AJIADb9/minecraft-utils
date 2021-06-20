@@ -1,23 +1,23 @@
 #!/bin/bash
 
 #command=ls
-#command="bash /root/minecraft/server/start.sh"
+#command="bash ${MC_SERVER_START_SH}"
 #command="echo asdasd"
 #request="stuff ${command}^M"
 
 #screen -S "MC" -X $request
 
-screen -S "MC" -p 0 -X ls
+#screen -S "MC" -p 0 -X ls
+#
+#exit
 
-exit
-
-#screen -S "MC" -p 0 -X bash /root/minecraft/server/start.sh
+#screen -S "MC" -p 0 -X "bash ${MC_SERVER_START_SH}"
 
 SCREENS=$(screen -ls)
 
 if [[ $SCREENS == No* || $SCREENS != *MC* ]]; then
   echo Creatng screen
-  screen -dmS "MC" -c "sh ${MC_SERVER_START_SH}"
+  screen -dmS "MC" -c "bash ${MC_SERVER_START_SH}"
   echo Starting Minecraft server
 
 else
