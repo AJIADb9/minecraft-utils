@@ -1,4 +1,3 @@
 #!/bin/bash
 
-cd /root/minecraft-server/
-sh start.sh
+sh $MC_SERVER_START_SH

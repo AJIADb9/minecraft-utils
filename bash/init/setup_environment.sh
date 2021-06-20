@@ -8,4 +8,4 @@ sudo apt install --yes screen
 
 sudo apt install --yes python3-pip
 pip install -upgrade pip
-pip install -r /root/minecraft-utils/mc_py_tools/requirements.txt
+pip install -r $MC_UTILS_REQUIREMENTS_TXT

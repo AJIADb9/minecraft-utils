@@ -1,12 +1,9 @@
 #!/bin/bash
 
-mnt_volume=/root
-target_dir=/root
-
-if [ -d "$target_dir" ]; then
+if [ -d "${MC_SERVER}" ]; then
   echo Minecraft already HERE!
   exit
 fi
 
-mkdir -p $target_dir
-cp -R /mnt/volume_fra1_01/minecraft-server $target_dir
+mkdir -p $MC_SERVER/..
+cp -R $MC_VOLUME/$MC_SERVER_NAME $MC_SERVER/..
