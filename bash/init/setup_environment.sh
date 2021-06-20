@@ -2,7 +2,8 @@
 
 sudo apt update
 
-sudo apt install --yes oracle-java16-installer
+sudo apt remove --yes openjdk-11-jre-headless
+sudo apt install --yes openjdk-16-jre-headless --install-recommends
 
 sudo apt install --yes screen
 
