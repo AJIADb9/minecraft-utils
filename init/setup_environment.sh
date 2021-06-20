@@ -6,8 +6,6 @@ sudo apt install --yes default-jdk
 
 sudo apt install --yes screen
 
-sudo apt install git
-
-sudo apt install python3-pip
+sudo apt install --yes python3-pip
 pip install -upgrade pip
 pip install -r /root/minecraft-utils/mc_py_tools/requirements.txt
