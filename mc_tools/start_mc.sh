@@ -1,1 +1,0 @@
-cd minecraft-server/ && sh start.sh
