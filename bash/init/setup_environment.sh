@@ -2,7 +2,7 @@
 
 sudo apt update
 
-sudo apt install --yes default-jdk
+sudo apt install --yes oracle-java16-installer
 
 sudo apt install --yes screen
 
