@@ -9,4 +9,4 @@ backup_dir=/mnt/volume_fra1_01/b_up/${backup_date}
 echo "Backup dir: ${backup_dir}"
 echo /mnt/volume_fra1_01/b_up/$backup_date
 mkdir -p $backup_dir
-cp -R /root/minecraft/server $backup_dir
+cp -R /root/minecraft-server $backup_dir

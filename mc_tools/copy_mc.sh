@@ -1,6 +1,6 @@
 #!/bin/bash
 
-target_dir=/root/minecraft
+target_dir=/root
 
 if [ -d "$target_dir" ]; then
   echo Minecraft already HERE!
@@ -8,4 +8,4 @@ if [ -d "$target_dir" ]; then
 fi
 
 mkdir -p $target_dir
-cp -R /mnt/volume_fra1_01/minecraft/server $target_dir
+cp -R /mnt/volume_fra1_01/minecraft-server $target_dir
