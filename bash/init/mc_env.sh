@@ -17,11 +17,11 @@ export MC_VOLUME="/mnt/${MC_VOLUME_NAME}"
 
 export MC_BACKUP="${MC_VOLUME}/b_up"
 
-exprot MC_SERVER_NAME="${server_name}"
-exprot MC_SERVER=/root/"${MC_SERVER_NAME}"
-exprot MC_SERVER_START_SH="${MC_SERVER}/start.sh"
+export MC_SERVER_NAME="${server_name}"
+export MC_SERVER=/root/"${MC_SERVER_NAME}"
+export MC_SERVER_START_SH="${MC_SERVER}/start.sh"
 
-exprot MC_UTILS="/root/${utils_name}"
-exprot MC_UTILS_PY="${MC_UTILS}/${python_scripts_path}"
-exprot MC_UTILS_SH="${MC_UTILS}/${bahs_scripts_path}"
-exprot MC_UTILS_REQUIREMENTS_TXT="${MC_UTILS_PY}/requirements.txt"
+export MC_UTILS="/root/${utils_name}"
+export MC_UTILS_PY="${MC_UTILS}/${python_scripts_path}"
+export MC_UTILS_SH="${MC_UTILS}/${bahs_scripts_path}"
+export MC_UTILS_REQUIREMENTS_TXT="${MC_UTILS_PY}/requirements.txt"
