@@ -3,6 +3,7 @@
 cd "$(dirname "$0")"
 
 cd init/
+sh create_env.sh
 sh mount_volume.sh
 sh setup_environment.sh
 

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+mnt_volume=/root
 target_dir=/root
 
 if [ -d "$target_dir" ]; then
