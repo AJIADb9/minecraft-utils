@@ -5,5 +5,5 @@ if [ -d "${MC_SERVER}" ]; then
   exit
 fi
 
-mkdir -p $MC_SERVER/..
-cp -R $MC_VOLUME/$MC_SERVER_NAME $MC_SERVER/..
+mkdir -p "${MC_SERVER}/.."
+cp -R "${MC_VOLUME}/${MC_SERVER_NAME}" "${MC_SERVER}/.."

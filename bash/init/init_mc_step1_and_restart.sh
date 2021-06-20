@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cd "$(dirname "$0")"
+cd "$(dirname "$0")" || exit
 
-cd init/
+cd init/ || exit
 sh create_env.sh
 sh setup_environment.sh
