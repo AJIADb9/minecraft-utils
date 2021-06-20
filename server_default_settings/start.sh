@@ -1,4 +1,5 @@
 #!/bin/bash
 
 cd "$(dirname "$0")" || exit
-java -Xmx1500M -Xms1500M -jar server.jar nogui
+
+java -Xmx1400M -Xms1400M -jar server.jar nogui
