@@ -17,7 +17,7 @@ SCREENS=$(screen -ls)
 
 if [[ $SCREENS == No* || $SCREENS != *MC* ]]; then
   echo Creatng screen
-  screen -dmS "MC" -c "${MC_SERVER_START_SH}"
+  screen -dmS "MC" -c "sh ${MC_SERVER_START_SH}"
   echo Starting Minecraft server
 
 else
